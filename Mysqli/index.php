@@ -22,7 +22,7 @@ class index {
         // $this->db->updateShop(4, 'Steve Job');
         // $this->db->deleteShop(5);
         // $this->db->getJoinData(1);
-        $this->db->fetchAllShop(1);
+        // $this->db->fetchAllShop(1);
     }
 }
 

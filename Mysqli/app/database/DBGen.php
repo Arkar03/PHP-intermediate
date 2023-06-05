@@ -112,7 +112,6 @@ class DBGen
         $stmt->execute();
         $result = $stmt->get_result();
         $data = $result->fetch_all();
-
-        
     }
+    
 }
