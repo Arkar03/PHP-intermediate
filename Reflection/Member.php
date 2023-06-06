@@ -1,17 +1,19 @@
-<?php 
+<?php
 
-namespace Reflection;
+namespace App;
 
-class Member {
+class Member
+{
     private $isAuth = false;
     private $detailInfo = [
         "name" => "Arkar",
         "age" => 20,
         "school" => "Dagon"
     ];
-    public function detailInfo()
+    public function getDetailInfo($data, $info)
     {
-        return $this->detailInfo;
+        // return $this->detailInfo;
+        echo "I am being invoiked $data";
     }
     public function setAuth($bol)
     {

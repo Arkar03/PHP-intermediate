@@ -1,0 +1,5 @@
+error message => 
+<div style='color:red;'>File Not Found!</div>
+Error Number => 1001
+ Error Timestamp
+CEST-06-06 05:06;52
